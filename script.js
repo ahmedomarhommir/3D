@@ -3,4 +3,4 @@ var camera = new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight
 var renderer = new THREE.WebGLRenderer({antialias: true});
 render.setClearColor("#E5E5E5");
 render.setSize(window.innerWidth, window.innerHeight);
-document.getElementById("MyDiv").appendChild("<h1>Ahmed</h1>");
+document.getElementById("MyDiv").innerHTML= "<h1>Hello Word</h1>";
